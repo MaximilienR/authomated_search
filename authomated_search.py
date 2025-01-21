@@ -29,5 +29,5 @@ if not os.listdir(dossier_images):
                 # Copie du fichier image dans le dossier
                 shutil.copy2(os.path.join(root, file), dossier_images)
 
-print("Tous les fichiers images ont été copiés dans le dossier 'Photos'")
+print("Tous les fichiers images ont été copiés dans le dossier saved_images")
 input("Appuyez sur une touche pour fermer le script...")
